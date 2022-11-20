@@ -77,7 +77,7 @@ _strcat(path, cmd);
 if (is_cmd(info, path))
 return (path);
 if (!pathstr[i])
-ibreak;
+break;
 curr_pos = i;
 }
 i++;

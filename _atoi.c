@@ -23,6 +23,7 @@ int is_delim(char c, char *delim)
 while (*delim)
 if (*delim++ == c)
 return (1);
+ return (0);
 }
 
 /**

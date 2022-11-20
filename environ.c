@@ -81,6 +81,7 @@ return (0);
  * Return: Always 0
  */
 int populate_env_list(info_t *info)
+{
 list_t *node = NULL;
 size_t i;
 
